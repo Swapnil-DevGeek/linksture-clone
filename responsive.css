@@ -1,0 +1,101 @@
+@media (max-width: 990px) {
+    .links, .start{
+        display: none;
+    }
+    #ham{
+        display:block;
+    }
+    .cards{
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .cards p{
+        margin-bottom: 12.5px;
+    }
+}
+
+
+@media (max-width: 1400px) {
+    #expimg{
+        background-image: none;
+    }
+}
+
+@media (max-width:990px) {
+    .experience{
+        flex: none;
+        display: block;
+    }
+    #expimg,#expcontent{
+        width: 100vw;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .experience h3{
+        margin: 0;
+        padding: 7vw  0  0 14vw;
+        font-size: 3vw;
+    }
+    .experience h2{
+        margin: 0;
+        padding:7vw 0 7vw 14vw;
+        font-size: 5vw;
+    }
+    #expcontent p{
+        margin: 0;
+        padding: 0 14vw 7vw 14vw;
+        font-size: 3.5vw;
+    }
+    #expcontent a{
+        padding:0 14vw 7vw 14vw;
+        font-size: 4.5vw;
+    }
+
+    .clients{
+        padding-bottom: 50px;
+    }
+
+    .clients h3{
+        padding-top: 30px;
+        font-size: 10px;
+    }
+    .clients h2{
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .imgclient{
+        flex-wrap: wrap;
+       padding: 0 80px;
+       margin: 0;
+       gap: 40px;
+       justify-content: space-evenly;
+    }
+    .imgclient img{
+        height: 40px;
+    }
+    .testimonials{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        height: 70vh;
+    }
+    .text{
+        width: 100vw;
+        font-size: 25px;
+    }
+    .feedback{
+        width: 100vw;
+        margin: 0;
+        padding: 0 60px;
+    }
+    .feedback .head{
+        font-size: 8px;
+    }
+    .feedback .content{
+        font-size: 12px;
+    }
+    .feedback button{
+        font-size: 15px;
+    }
+}
